@@ -1,0 +1,32 @@
+print("Here you have our quiz !")
+print('-------')
+print()
+
+question1= input("How many times France soccer team won the World Cup?")
+print('Your answer : {}'.format(question1))
+
+if question1 != "2":
+    print("Too bad! That is not the correct answer")
+else:
+    print("Good job! This is the right answer")
+     
+    
+question2 = input("When was Apple founded?")
+print('Your answer : {}'.format(question2))
+
+if question2 != "1976":
+    print("Too bad! That is not the correct answer")
+else:
+    print("Good job! This is the right answer")
+  
+  
+    
+question3 = input("Who founded SpaceX?")
+print('Your answer : {}'.format(question3))
+question3 = question3.lower() # To convert Elon Musk in elon musk, let's see in the                                     output
+print('Your answer after .lower() function : {}'.format(question3))
+
+if question3 != "elon musk":
+    print("Too bad! That is not the correct answer")
+else:
+    print("Good job! This is the right answer")
